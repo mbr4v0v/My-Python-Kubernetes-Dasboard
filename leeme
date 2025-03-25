@@ -1,0 +1,20 @@
+
+
+cd app-mon-python
+
+se ejecuta $python3 appmon2.py
+
+
+Detalle de la salida
+marco@kub:~/app-mon-python$ python3 appmon2.py
+ * Serving Flask app 'appmon2'
+ * Debug mode: off
+Datos de Kubernetes actualizados a las 2025-03-25 16:11:43
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.26:5000
+Press CTRL+C to quit
+192.168.1.8 - - [25/Mar/2025 16:11:57] "GET / HTTP/1.1" 200 -
+192.168.1.8 - - [25/Mar/2025 16:11:58] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.8 - - [25/Mar/2025 16:12:01] "GET /api/data HTTP/1.1" 200 -
